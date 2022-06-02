@@ -44,3 +44,13 @@ if ( firstYear > lastYear) {
 }
 ```
 ****
+### Education and courses
+1. Moscow State University for the Humanities M. A. Sholokhov
+   + Graphic design
+2. [Loftschool course](https://loftschool.com/)
+3. [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design
+
+****
+### Languages
+* Russian - native speaker.
+* English - Beginner (Pre-Intermediate in process…)
