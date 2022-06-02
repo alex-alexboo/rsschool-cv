@@ -17,3 +17,30 @@ For the last few years I have been working as a designer. There is a great desir
 * Have planning skills
 
 ****
+
+### Skills
+
+* HTML5, CSS3
+* JavaScript (Basics)
+* Adobe Photoshop, Figma 
+
+****
+
+### Code Example
+```
+let firstYear = prompt ('Counting leap years...') 
+let lastYear = prompt ('End of leap year countdown...')
+
+let start = firstYear, end = lastYear
+
+for (let y = start; y <= end; y++) {
+  if (((y % 4 == 0) && (y % 100 != 0)) || (y % 400 == 0)) {
+    console.log(y)
+  }
+}
+
+if ( firstYear > lastYear) {
+    alert('Year entered incorrectly')
+}
+```
+****
