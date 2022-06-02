@@ -7,3 +7,13 @@
 * GitHub: **alex-alexboo**
 * Discord: **AlexBoo**
 * Address: **Saint Petersburg**
+
+****
+
+### About Me
+For the last few years I have been working as a designer. There is a great desire to learn in the field of front-end development.
+* Enjoy learning new things
+* Hardworking
+* Have planning skills
+
+****
