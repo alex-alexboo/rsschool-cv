@@ -202,7 +202,7 @@ img {
 }
 
 .main__title {
-    padding: 0px 0px 15px 0px;
+    padding: 0px 0px 25px 0px;
 }
 
 .main__title h2 {
@@ -336,3 +336,31 @@ img {
     color: #c4c9ed;
 }
 
+.main__content {
+    margin: 0 0 55px 0;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__link {
+    width: 50px;
+}
+
+.footer__date {
+    cursor: default;
+    flex: 0 0 130px;
+}
+
+.footer__date p:hover {
+    color: #4895f7;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.footer__logo {
+    width: 100px;
+}
