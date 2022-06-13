@@ -1,5 +1,5 @@
 # Karaeva Alexandra
-![фото профиля](/rsschool-cv/img/image%20-%201.jpg)
+![фото профиля](/rsschool-cv/img/image-01.jpg)
 
 ## Contacts
 * Phone: **+7961-608-32-67**
