@@ -297,3 +297,42 @@ img {
 .text__experience a:hover{
     color: #4895f7;
 }
+
+.section__code-example {
+    margin: 0px 0px 25px;
+}
+
+.main__code {
+    background: #1a1b26;
+    border-radius: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.code__js {
+    color: #4895f7;
+    line-height: 1.4;
+    flex: 0 0 945px;
+}
+
+.color__purple {
+    color: #8c7ccd;
+}
+
+.color__green {
+    color: #67c06a;
+}
+
+.color__orang {
+    color: #ff9e64;
+}
+
+.color__blue {
+    color: #89ddff;
+}
+
+.color__violet {
+    color: #c4c9ed;
+}
+

@@ -173,30 +173,58 @@
                             <li>English - Beginner (Pre-Intermediate in process…)</li>
                         </ul>
                     </section>
-                <section class="section__experience" id="experience">
-                    <div class="main__experience">
-                        <div class="main__title">
-                            <h2>Experience</h2>
+                    <section class="section__experience" id="experience">
+                        <div class="main__experience">
+                            <div class="main__title">
+                                <h2>Experience</h2>
+                            </div>
+                            <div class="main__text">
+                                <div class="main__subtitle">
+                                    <h3>Graphic Designer - freelance</h3>
+                                </div>
+                                <div class="text__experience">
+                                    <p>For the last few years I have been working as a designer. There is a great desire to learn in the field of front-end development.</p>
+                                </div>
+                            </div>
+                            <div class="main__text">
+                                <div class="main__subtitle">
+                                    <h3>RS School</h3>
+                                </div>
+                                <div class="text__experience">
+                                    <p>Course 2022Q1 JavaScript / Front-end Stage #1</p>
+                                    <a href="https://rolling-scopes-school.github.io/alex-alexboo-JSFE2022Q1/shelter/pages/main/" target="_blank">layout Shelter</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="main__text">
-                            <div class="main__subtitle">
-                                <h3>Graphic Designer - freelance</h3>
+                    </section>
+                    <section class="section__code-example" id="code">
+                        <div class="main__code-example">
+                            <div class="main__title">
+                                <h2>Code example</h2>
                             </div>
-                            <div class="text__experience">
-                                <p>For the last few years I have been working as a designer. There is a great desire to learn in the field of front-end development.</p>
-                            </div>
+                            <pre class="main__code">
+                                <code class="code__js">
+                                    <span class="color__purple">let firstName</span> <span class="color__blue">=</span> prompt (<span class="color__blue">'</span><span class="color__green">What is your first name?</span><span class="color__blue">'</span>)<span class="color__blue">;</span>
+                                    <span class="color__purple">let lastName</span> <span class="color__blue">=</span>  prompt (<span class="color__blue">'</span><span class="color__green">What is your surname?</span><span class="color__blue">'</span>)<span class="color__blue">;</span>
+                                    <span class="color__purple">let myBirthYear</span> <span class="color__blue">=</span> prompt (<span class="color__blue">'</span><span class="color__green">How old are you?</span><span class="color__blue">'</span>)<span class="color__blue">;</span>
+                                    
+                                    <span class="color__purple">let today</span> <span class="color__blue">= new</span>  Date()<span class="color__blue">;</span>
+                                    <span class="color__purple">let currentYear</span> <span class="color__blue">=</span><span class="color__violet"> today</span><span class="color__blue">.</span>getFullYear()<span class="color__blue">;</span>
+                                    <span class="color__purple">let age</span> <span class="color__blue">=</span><span class="color__violet"> currentYear </span><span class="color__blue">-</span><span class="color__violet"> myBirthYear </span><span class="color__blue">;</span>
+                                    
+                                    <span class="color__purple">if</span> (<span class="color__violet"> age </span><span class="color__purple">&lt;</span><span class="color__orang"> 20</span>) {
+                                    &nbsp;&nbsp; alert(<span class="color__blue">'</span><span class="color__green">Hey,</span> <span class="color__blue">' +</span><span class="color__violet"> firstName </span> <span class="color__blue">+ ' ' + </span><span class="color__violet">lastName</span><span class="color__blue"> + '</span><span class="color__green">!</span><span class="color__blue">');</span>
+                                    }
+                                    <span class="color__purple">else if</span> ( <span class="color__violet"> age </span> <span class="color__purple">>=</span> <span class="color__orang">20</span> <span class="color__purple">&&</span><span class="color__violet"> age </span> <span class="color__purple">&lt;</span> <span class="color__orang">40</span>) {
+                                    &nbsp;&nbsp; alert(<span class="color__blue">'</span><span class="color__green">Hi,</span> <span class="color__blue">' +</span> <span class="color__violet"> firstName </span> <span class="color__blue">+ ' ' + </span><span class="color__violet">lastName</span><span class="color__blue">');</span>
+                                    }
+                                    <span class="color__purple">else</span> {
+                                    &nbsp;&nbsp; alert(<span class="color__blue">'</span><span class="color__green">Hello,</span><span class="color__blue"> '  + </span><span class="color__violet"> firstName </span><span class="color__blue"> + ' ' + </span><span class="color__violet">lastName</span><span class="color__blue">');</span>
+                                    }
+                                </code>
+                            </pre>
                         </div>
-                        <div class="main__text">
-                            <div class="main__subtitle">
-                                <h3>RS School</h3>
-                            </div>
-                            <div class="text__experience">
-                                <p>Course 2022Q1 JavaScript / Front-end Stage #1</p>
-                                <a href="https://rolling-scopes-school.github.io/alex-alexboo-JSFE2022Q1/shelter/pages/main/" target="_blank">layout Shelter</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                    </section>
                 </main>
         </div>
     </div>
